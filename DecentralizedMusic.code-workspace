@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\lilkr\\Desktop\\decentralized-music"
+		}
+
+],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [ 
+			{
+				"name": "Launch Extension",
+				"type": "extensionHost",
+				"request": "launch",
+				"args": [
+					"--extensionDevelopmentPath=${workspaceFolder}"
+				],
+				"outFiles": [
+					"${workspaceFolder}/out/**/*.js"
+				],
+				"preLaunchTask": "npm"
+			}
+			
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"kishoreithadi.dotnet-core-essentials"
+		]
+	}
+}
